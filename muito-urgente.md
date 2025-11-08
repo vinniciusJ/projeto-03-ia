@@ -2,19 +2,21 @@
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     ha_estagio_2 E
-    hipoxemia_moderada E
+    NÃO hipoxemia_moderada E
     NÃO taquicardia E
     NÃO taquipneia E
     NÃO confusao_mental
     NÃO dificuldade_de_falar
     NÃO bradicardia
-    NÃO hipotermia 
+    NÃO hipotermia
     NÃO teve_convulsao
     NÃO bradipneia
     NÃO febre_alta
-    NÃO hipoxemia_leve 
-    NÃO dispneia_em_repouso 
+    NÃO hipoxemia_leve
+    NÃO dispneia_em_repouso
     NÃO cianose ENTÃO "Muito urgente";
+
+
 
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
@@ -23,8 +25,8 @@ SE NÃO hipoxemia_grave E
     NÃO taquicardia E
     NÃO taquipneia E
     NÃO confusao_mental E
-    NÃO dificuldade_de_falar E 
-    NÃO bradicardia E 
+    NÃO dificuldade_de_falar E
+    NÃO bradicardia E
     hipotermia E
     NÃO teve_convulsao E
     NÃO bradipneia E
@@ -37,8 +39,8 @@ SE NÃO hipoxemia_grave E
     NÃO taquicardia E
     NÃO taquipneia E
     NÃO confusao_mental E
-    NÃO dificuldade_de_falar E 
-    NÃO bradicardia E 
+    NÃO dificuldade_de_falar E
+    NÃO bradicardia E
     NÃO hipotermia E
     teve_convulsao E
     NÃO bradipneia E
@@ -52,8 +54,8 @@ SE NÃO hipoxemia_grave E
     NÃO taquicardia E
     NÃO taquipneia E
     NÃO confusao_mental E
-    NÃO dificuldade_de_falar E 
-    NÃO bradicardia E 
+    NÃO dificuldade_de_falar E
+    NÃO bradicardia E
     NÃO hipotermia E
     NÃO teve_convulsao ENTÃO "Muito urgente";
 
@@ -66,7 +68,7 @@ SE NÃO hipoxemia_grave E
     NÃO confusao_mental E
     NÃO dificuldade_de_falar E
     NÃO hipotermia E
-    NÃO teve_convulsao E 
+    NÃO teve_convulsao E
     bradipneia E
     NÃO ha_estagio_1 E
     cianose
@@ -81,12 +83,12 @@ SE NÃO hipoxemia_grave E
     NÃO confusao_mental E
     NÃO dificuldade_de_falar E
     NÃO hipotermia E
-    NÃO teve_convulsao E 
+    NÃO teve_convulsao E
     bradipneia E
     NÃO ha_estagio_1 E
     NÃO cianose E
     hipoxemia_leve E
-    NÃO dispneia_em_repouso ENTÃO "Muito urgente";  
+    NÃO dispneia_em_repouso ENTÃO "Muito urgente";
 
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
@@ -97,7 +99,7 @@ SE NÃO hipoxemia_grave E
     NÃO confusao_mental E
     NÃO dificuldade_de_falar E
     NÃO hipotermia E
-    NÃO teve_convulsao E 
+    NÃO teve_convulsao E
     NÃO bradipneia E
     ha_estagio_1 E
     NÃO hipoxemia_leve E
@@ -162,8 +164,8 @@ SE NÃO hipoxemia_grave E
     confusao_mental E
     NÃO dificuldade_de_falar E
     NÃO bradicardia E
-    NÃO hipotermia E 
-    NÃO convulsao E 
+    NÃO hipotermia E
+    NÃO convulsao E
     NÃO bradipneia E
     NÃO febre_alta E
     NÃO ha_estagio_1 E
@@ -180,8 +182,8 @@ SE NÃO hipoxemia_grave E
     confusao_mental E
     NÃO dificuldade_de_falar E
     NÃO bradicardia E
-    NÃO hipotermia E 
-    NÃO convulsao E 
+    NÃO hipotermia E
+    NÃO convulsao E
     NÃO bradipneia E
     NÃO febre_alta E
     NÃO ha_estagio_1 E
@@ -497,4 +499,30 @@ SE NÃO hipoxemia_grave E
     NÃO convulsao E
     bradipneia E
     cianose ENTÃO "Muito urgente";
+
+SE NÃO hipoxemia_grave E
+    NÃO ha_estagio_3 E
+    NÃO ha_estagio_2 E
+    NÃO hipoxemia_moderada E
+    NÃO taquicardia E
+    taquipneia E
+    NÃO confusao_mental E
+    dificuldade_de_falar E
+    NÃO bradicardia E
+    NÃO teve_convulsao ENTÃO "Muito urgente";
+
+SE NÃO hipoxemia_grave E
+    NÃO ha_estagio_3 E
+    NÃO ha_estagio_2 E
+    NÃO hipoxemia_moderada E
+    taquicardia E
+    NÃO taquipneia E
+    NÃO confusao_mental E
+    NÃO dificuldade_de_falar E
+    NÃO hipotermia E
+    NÃO teve_convulsao E
+    bradipneia E
+    NÃO ha_estagio_1 E
+    NÃO cianose E
+    NÃO hipoxemia_leve ENTÃO "Emergência";
 ```

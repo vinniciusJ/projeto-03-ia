@@ -7,20 +7,25 @@ SE NÃO hipoxemia_grave E
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     ha_estagio_2 E
-    hipoxemia_moderada E
+    hipoxemia_moderada ENTÃO "Emergência";
+
+SE NÃO hipoxemia_grave E
+    NÃO ha_estagio_3 E
+    ha_estagio_2 E
+    NÃO hipoxemia_moderada E
     taquicardia ENTÃO "Emergência";
 
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     ha_estagio_2 E
-    hipoxemia_moderada E
+    NÃO hipoxemia_moderada E
     NÃO taquicardia E
     taquipneia ENTÃO "Emergência";
 
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     ha_estagio_2 E
-    hipoxemia_moderada E
+    NÃO hipoxemia_moderada E
     NÃO taquicardia E
     NÃO taquipneia E
     confusao_mental ENTÃO "Emergência";
@@ -28,7 +33,7 @@ SE NÃO hipoxemia_grave E
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     ha_estagio_2 E
-    hipoxemia_moderada E
+    NÃO hipoxemia_moderada E
     NÃO taquicardia E
     NÃO taquipneia E
     NÃO confusao_mental
@@ -37,7 +42,7 @@ SE NÃO hipoxemia_grave E
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     ha_estagio_2 E
-    hipoxemia_moderada E
+    NÃO hipoxemia_moderada E
     NÃO taquicardia E
     NÃO taquipneia E
     NÃO confusao_mental
@@ -47,7 +52,7 @@ SE NÃO hipoxemia_grave E
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     ha_estagio_2 E
-    hipoxemia_moderada E
+    NÃO hipoxemia_moderada E
     NÃO taquicardia E
     NÃO taquipneia E
     NÃO confusao_mental E
@@ -58,7 +63,7 @@ SE NÃO hipoxemia_grave E
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     ha_estagio_2 E
-    hipoxemia_moderada E
+    NÃO hipoxemia_moderada E
     NÃO taquicardia E
     NÃO taquipneia E
     NÃO confusao_mental E
@@ -70,7 +75,7 @@ SE NÃO hipoxemia_grave E
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     ha_estagio_2 E
-    hipoxemia_moderada E
+    NÃO hipoxemia_moderada E
     NÃO taquicardia E
     NÃO taquipneia E
     NÃO confusao_mental E
@@ -83,7 +88,7 @@ SE NÃO hipoxemia_grave E
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     ha_estagio_2 E
-    hipoxemia_moderada E
+    NÃO hipoxemia_moderada E
     NÃO taquicardia E
     NÃO taquipneia E
     NÃO confusao_mental E
@@ -97,7 +102,7 @@ SE NÃO hipoxemia_grave E
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     ha_estagio_2 E
-    hipoxemia_moderada E
+    NÃO hipoxemia_moderada E
     NÃO taquicardia E
     NÃO taquipneia E
     NÃO confusao_mental E
@@ -112,7 +117,7 @@ SE NÃO hipoxemia_grave E
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     ha_estagio_2 E
-    hipoxemia_moderada E
+    NÃO hipoxemia_moderada E
     NÃO taquicardia E
     NÃO taquipneia E
     NÃO confusao_mental E
@@ -128,7 +133,7 @@ SE NÃO hipoxemia_grave E
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     ha_estagio_2 E
-    hipoxemia_moderada E
+    NÃO hipoxemia_moderada E
     NÃO taquicardia E
     NÃO taquipneia E
     NÃO confusao_mental
@@ -425,6 +430,7 @@ SE NÃO hipoxemia_grave E
     dificuldade_de_falar E
     NÃO bradicardia E
     teve_convulsao ENTÃO "Emergência";
+
 
 SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
