@@ -1,5 +1,5 @@
 ```
-SE NÃO hipoxemia_grave E
+102 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -14,7 +14,7 @@ SE NÃO hipoxemia_grave E
     palidez E
     NÃO sudorese ENTÃO "Urgente";
 
-SE NÃO hipoxemia_grave E
+103 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -28,7 +28,7 @@ SE NÃO hipoxemia_grave E
     NÃO cianose E
     NÃO palidez ENTÃO "Urgente";
 
-SE NÃO hipoxemia_grave E
+104 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -42,7 +42,7 @@ SE NÃO hipoxemia_grave E
     convulsao E
     NÃO hipoxemia_leve ENTÃO "Urgente";
 
-SE NÃO hipoxemia_grave E
+105 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -57,7 +57,7 @@ SE NÃO hipoxemia_grave E
     bradipneia E
     NÃO hipoxemia_leve ENTÃO "Urgente";
 
-SE NÃO hipoxemia_grave E
+106 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -71,7 +71,7 @@ SE NÃO hipoxemia_grave E
     NÃO convulsao E
     NÃO bradipneia ENTÃO "Urgente";
 
-SE NÃO hipoxemia_grave E
+107 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -87,7 +87,7 @@ SE NÃO hipoxemia_grave E
     bradipneia E
     NÃO cianose ENTÃO "Urgente";
 
-SE NÃO hipoxemia_grave E
+108 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -102,7 +102,7 @@ SE NÃO hipoxemia_grave E
     NÃO hipoxemia_leve E
     NÃO bradipneia ENTÃO "Urgente";
 
-SE NÃO hipoxemia_grave E
+109 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -116,7 +116,7 @@ SE NÃO hipoxemia_grave E
     bradipneia E
     NÃO cianose ENTÃO "Urgente";
 
-SE NÃO hipoxemia_grave E
+110 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -130,7 +130,7 @@ SE NÃO hipoxemia_grave E
     NÃO bradipneia E
     febre_alta ENTÃO "Urgente";
 
-SE NÃO hipoxemia_grave E
+111 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -145,7 +145,7 @@ SE NÃO hipoxemia_grave E
     NÃO febre_alta E
     ha_estagio_1 ENTÃO "Urgente";
 
-SE NÃO hipoxemia_grave E
+112 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -161,7 +161,7 @@ SE NÃO hipoxemia_grave E
     NÃO ha_estagio_1 E 
     hipoxemia_leve ENTÃO "Urgente";
 
-SE NÃO hipoxemia_grave E
+113 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
