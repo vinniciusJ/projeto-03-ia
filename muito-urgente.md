@@ -246,7 +246,7 @@
     NÃO bradipneia E
     NÃO febre_alta ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+82 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -262,7 +262,7 @@ SE NÃO hipoxemia_grave E
     ha_estagio_1 E
     NÃO hipoxemia_leve ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+83 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -277,7 +277,7 @@ SE NÃO hipoxemia_grave E
     febre_alta E
     NÃO ha_estagio_1 ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+84 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -291,7 +291,7 @@ SE NÃO hipoxemia_grave E
     bradipneia E
     NÃO febre_alta ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+85 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -304,7 +304,7 @@ SE NÃO hipoxemia_grave E
     NÃO convulsao E
     NÃO bradipneia ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+86 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -321,7 +321,7 @@ SE NÃO hipoxemia_grave E
     NÃO dispneia_em_repouso E
     NÃO cianose ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+87 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -335,7 +335,7 @@ SE NÃO hipoxemia_grave E
     NÃO bradipneia E
     NÃO febre_alta ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+88 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -347,7 +347,7 @@ SE NÃO hipoxemia_grave E
     hipotermia E
     NÃO convulsao ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+89 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -359,7 +359,7 @@ SE NÃO hipoxemia_grave E
     NÃO hipotermia E
     convulsao ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+90 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -372,7 +372,7 @@ SE NÃO hipoxemia_grave E
     NÃO convulsao E
     cianose ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+91 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -387,7 +387,7 @@ SE NÃO hipoxemia_grave E
     palidez E
     sudorese ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+92 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
