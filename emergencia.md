@@ -268,7 +268,7 @@
     NÃO ha_estagio_1 E
     febre_alta ENTÃO "Emergência";
 
-27 - SE NÃO hipoxemia_grave E
+<!-- 27 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     hipoxemia_moderada E
@@ -281,16 +281,16 @@
     teve_convulsao E
     NÃO bradipneia E
     NÃO ha_estagio_1 E
-    febre_alta ENTÃO "Emergência";
+    febre_alta ENTÃO "Emergência"; -->
 
-28 - SE NÃO hipoxemia_grave E
+27 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
     taquicardia E
     taquipneia ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+28 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -298,7 +298,7 @@ SE NÃO hipoxemia_grave E
     NÃO taquipneia E
     confusao_mental ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+29 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -307,7 +307,7 @@ SE NÃO hipoxemia_grave E
     NÃO confusao_mental E
     dificuldade_de_falar ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+30 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -317,7 +317,7 @@ SE NÃO hipoxemia_grave E
     NÃO dificuldade_de_falar E
     hipotermia ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+31 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -328,7 +328,7 @@ SE NÃO hipoxemia_grave E
     NÃO hipotermia E
     teve_convulsao ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+32 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -341,7 +341,7 @@ SE NÃO hipoxemia_grave E
     bradipneia E
     ha_estagio_1 ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+33 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -356,7 +356,7 @@ SE NÃO hipoxemia_grave E
     cianose
     sudorese ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+34 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -372,7 +372,7 @@ SE NÃO hipoxemia_grave E
     hipoxemia_leve E
     dispneia_em_repouso ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+35 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -386,7 +386,7 @@ SE NÃO hipoxemia_grave E
     ha_estagio_1 E
     hipoxemia_leve ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+36 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -402,7 +402,7 @@ SE NÃO hipoxemia_grave E
     cianose ENTÃO "Emergência";
 
     
-SE NÃO hipoxemia_grave E
+37 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -410,7 +410,7 @@ SE NÃO hipoxemia_grave E
     taquipneia E
     confusao_mental ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+38 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -420,7 +420,7 @@ SE NÃO hipoxemia_grave E
     dificuldade_de_falar E
     bradicardia ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+39 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -432,7 +432,7 @@ SE NÃO hipoxemia_grave E
     teve_convulsao ENTÃO "Emergência";
 
 
-SE NÃO hipoxemia_grave E
+40 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -443,7 +443,7 @@ SE NÃO hipoxemia_grave E
     bradicardia E
     hipotermia ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+41 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -455,7 +455,7 @@ SE NÃO hipoxemia_grave E
     NÃO hipotermia
     teve_convulsao ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+42 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -468,7 +468,7 @@ SE NÃO hipoxemia_grave E
     ha_estagio_1 E
     hipoxemia_leve ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+43 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -481,7 +481,7 @@ SE NÃO hipoxemia_grave E
     hipoxemia_leve E
     cianose ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+44 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -490,7 +490,7 @@ SE NÃO hipoxemia_grave E
     confusao_mental E
     dificuldade_de_falar ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+45 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -500,7 +500,7 @@ SE NÃO hipoxemia_grave E
     NÃO dificuldade_de_falar E
     bradicardia ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+46 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -511,7 +511,7 @@ SE NÃO hipoxemia_grave E
     NÃO bradicardia E
     hipotermia ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+47 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -523,7 +523,7 @@ SE NÃO hipoxemia_grave E
     NÃO hipotermia E 
     convulsao ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+48 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -536,7 +536,7 @@ SE NÃO hipoxemia_grave E
     NÃO convulsao E 
     bradipneia ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+49 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -550,7 +550,7 @@ SE NÃO hipoxemia_grave E
     NÃO bradipneia E
     febre_alta ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+50 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -565,7 +565,7 @@ SE NÃO hipoxemia_grave E
     NÃO febre_alta E
     ha_estagio_1 ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+51 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -581,7 +581,7 @@ SE NÃO hipoxemia_grave E
     NÃO ha_estagio_1 E
     hipoxemia_leve ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+52 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -599,7 +599,7 @@ SE NÃO hipoxemia_grave E
     dispneia_em_repouso
     cianose ENTÃO "Emergência";
 
-SE NÃO hipoxemia_grave E
+53 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
