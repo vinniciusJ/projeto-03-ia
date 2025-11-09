@@ -401,7 +401,7 @@
     bradipneia E
     NÃO hipoxemia_leve ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+93 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -414,7 +414,7 @@ SE NÃO hipoxemia_grave E
     cianose E
     NÃO bradipneia ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+94 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -428,7 +428,7 @@ SE NÃO hipoxemia_grave E
     convulsao E
     hipoxemia_leve ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+95 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -443,7 +443,7 @@ SE NÃO hipoxemia_grave E
     bradipneia E
     hipoxemia_leve ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+96 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -456,7 +456,7 @@ SE NÃO hipoxemia_grave E
     convulsao E
     febre_alta ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+97 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -470,7 +470,7 @@ SE NÃO hipoxemia_grave E
     NÃO febre_alta E
     hipoxemia_leve ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+98 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -486,7 +486,7 @@ SE NÃO hipoxemia_grave E
     bradipneia E
     cianose ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+99 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -500,7 +500,7 @@ SE NÃO hipoxemia_grave E
     bradipneia E
     cianose ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+100 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
@@ -511,7 +511,7 @@ SE NÃO hipoxemia_grave E
     NÃO bradicardia E
     NÃO teve_convulsao ENTÃO "Muito urgente";
 
-SE NÃO hipoxemia_grave E
+101 - SE NÃO hipoxemia_grave E
     NÃO ha_estagio_3 E
     NÃO ha_estagio_2 E
     NÃO hipoxemia_moderada E
